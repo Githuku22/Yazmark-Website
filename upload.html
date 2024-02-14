@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazmark Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/retrieveaccount.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="user-logged-in">
+        <h5 id="username"></h5>
+        <button id="logout">Log out</button>
+    </div>
+
+ <div class="Details">
+    <h1>Uploading products</h1>
+<input type="file" class="contentChange1" id="imageuploader">
+<input type="text" placeholder="Enter your title:" class="contentChange" id="titleupdate"> 
+<input type="text" placeholder="Enter your description:" class="contentChange" id="Descriptionupdate">
+<button type="button" class="btn btn-primary" id="submitData" onclick="uploadproducts()">Submit</button>
+                            
+</div> 
+
+
+
+
+
+
+    <!-- <div id="home">"uploadproducts"
+<div class="accountimage">
+
+</div>
+
+<div class="accountdetails">
+
+    <h2>Don't worry!</h2>
+    <p>Let's reset your password.</p>
+    <h4>Enter your email</h4>
+   <input type="email" placeholder="Email:" class="button" id="email"> 
+  
+   
+<button class="signUpretrieve" id="signUpretrieve">Send Reset Link</button>
+
+<button class="btn btn-primary loadingbtn" type="button" disabled style="display: none;" id="loadbtn">
+    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span role="status">Signing up...</span>
+  </button>
+</div>
+    </div> -->
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="js/config.js"></script>
+   <script src="js/upload.js"></script>
+</body>
+</html>

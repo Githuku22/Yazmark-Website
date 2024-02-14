@@ -1,0 +1,67 @@
+.signUpretrieve{
+    width: 50%;
+    background-color: aqua;
+    padding: 10px 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+ }
+
+
+ .retrieve-btn{
+    display: flex;
+   
+ }
+
+
+ .logbtn{
+    border-radius: none;
+ margin-left: 10px;
+ }
+
+
+ .accountimage{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(170, 12, 12);
+    background-image: url(../images/happy-woman-background-with-smartphone-remixed-media.jpg);
+  background-size: cover;
+}
+
+
+.accountdetails{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+
+.signIn{
+    background-color: aqua;
+    padding: 10px 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+.logbtn{
+    width: 20%;
+    margin-top: 10px;
+    background-color: rgb(184, 212, 212);
+    border: none;
+}
+
+
+.icons{
+    background-color: aqua;
+    width: 40%;
+    height: 100px;
+}
+

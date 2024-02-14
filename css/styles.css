@@ -1,0 +1,793 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+.image{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(170, 12, 12);
+    background-image: url(../images/pexels-finhov-10071360.jpg);
+  background-size: cover;
+}
+
+
+.accountimage{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(170, 12, 12);
+    background-image: url(../public/images/Yazmark\ login\ woman.jpg);
+  background-size: cover;
+}
+
+button a{
+text-decoration: none;
+
+}
+
+
+.details{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+h4{
+    margin-top: 20px;
+}
+
+
+.button{
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    margin-top: 10px;
+}
+
+
+.signUp{
+    background-color: aqua;
+    padding: 10px 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.btn{
+    margin-top: 10px;
+}
+
+
+.loadingbtn{
+    display: none;
+}
+
+
+.homepg{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+
+.homepg h1{
+    text-align: center;
+}
+
+
+.nav{
+    width: 30%;
+    height: 100vh;
+    padding: 30px 70px;
+background-color: aliceblue;
+}
+
+
+.nav li{
+   font-size: 1.2rem;
+   margin-top: 20px;
+   color: black;
+   list-style: none;
+   margin-left: 140px;
+}
+.nav li a{
+    text-decoration: none;
+   list-style: none;
+color: black;
+ }
+
+
+ .post{
+    padding: 10px 50px;
+    margin-top: 20px;
+    background-color: rgb(91, 91, 224);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    margin-left: 110px;
+ }
+
+
+ #mytweet{
+    padding: 10px 100px;
+ }
+
+
+ #homepg{
+    display: flex;
+ }
+
+
+ .mypost{
+    display: flex;
+    width: 40%;
+ }
+
+
+ .mypost button{
+    width: 30%;
+   
+ }
+
+
+ .profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: aqua;
+    background-image: url(../images/pexels-finhov-10071360.jpg);
+    background-size: contain;
+    margin-right: 20px;
+ }
+
+ *{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #0808bc;
+}
+
+#body{
+display: flex;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items a{
+color: black;
+margin-top: 10px;
+text-decoration: none;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    }
+
+#generalpanel{
+    background-color: #f58634;
+    width: 20%;
+    height: 217vh;
+}
+#bodypanel{
+    width: 100%;
+	height: 200vh;
+}
+
+.div-general{
+    width: 100%;
+    border-bottom: 1px solid #0808bc;
+    height: 217px;
+    text-align: center;
+}
+
+.div-general h3{
+    padding-top: 10px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.admin-panel{
+    padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+#logout{
+	padding: 10px;
+	background-color: #f58634;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.media{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.uploadmedia{
+	display:flex;
+	align-items:center;
+}
+
+.uploadButton{
+	padding: 10px 40px;
+	background-color: #0808bc;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.edit, .delete{
+	padding: 5px 30px;
+	background-color: #0808bc;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	
+}
+
+.editContent button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.editbtn{
+	padding: 5px 30px;
+	background-color: #0808bc;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+.media li{
+    list-style: none;
+    font-weight: bold;
+	padding: 10px;
+}
+
+#services{
+	height: 100vh;
+}
+
+#our-services,
+	#our-services-2,
+	#our-services-3,
+	#our-services-4 {
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+	}
+
+	.our-services-details1{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+		flex-wrap: wrap;
+	}
+	
+	.our-services-details2{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.our-services-details3{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.readmore{
+		padding: 5px 5px;
+		margin-bottom: 10px;
+		background-color: #0808bc;
+		color: #fff;
+		font-weight: bold;
+		border: none;
+		border-radius: 5px;
+	}
+
+	.Gallery {
+		background-color: #f58634;
+		font-weight: bold;
+		font-size: 2rem;
+		text-align: center;
+		width: 100%;
+		border-bottom: 1px solid #0808bc;
+		height: 70px;
+		text-align: center;
+	}
+	.our-services-details {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 30px;
+	}
+	
+	.more-details-container {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #f58634;
+		padding: 20px;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		max-width: 40%;
+		max-height: 80%;
+		overflow-y: auto;
+		z-index: 10;
+		color: #fff;
+		font-size: 16px;
+	  }
+
+	  .more-details-container h4{
+		color: black;
+		font-weight: bold;
+	  }
+
+	  .more-details-container-logistics {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #fff;
+		padding: 20px;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		max-width: 40%;
+		max-height: 80%;
+		overflow-y: auto;
+		z-index: 10;
+	  }
+	
+	.fuel{
+		width: 33%;
+		height: 48vh;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35);
+		margin-top: 25px;
+	}
+
+	.fuel img{
+		height: 190px;
+		width: 95%;
+		object-fit: cover;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35);
+	}
+	
+	
+	.our-services-img-fuel{
+		background-image: url(../public/images/jpeg-optimizer_yazmar\ truck7.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-logistics {
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ vans1\ \(1\).PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-auto-imports{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ cars2.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-relief{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ relief8.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-construction{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ construction20.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-electronics{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ electronics17.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-security{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ security9.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-medical{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ pharmaceutical16.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-safety{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ safety15.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-spare{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ autospares13.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-stationery{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ morestationery14.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+	  }
+	
+	
+	  .our-services-img-fresh{
+		background-image: url(../public/images/jpeg-optimizer_yazmark\ groceries5.PNG);
+		background-size: cover; /* Adjust the background size as needed */
+		background-position: center; /* Adjust the background position as needed */
+		background-repeat: no-repeat;
+		width: 100%; /* Set the width to 100% to cover the entire container */
+		height: 100%; /* Set the height to 100% to cover the entire container */
+		
+	  }
+
+	  .navbar-dash{
+		background-color: #fff;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70px;
+		padding-top: 10px;
+	  }
+	
+	
+	  .service-description {
+		background-color: #f58634;
+		padding: 5px 20px; /* Adjust padding for smaller screens */
+		border-radius: 5px;
+		margin-bottom: 20px;
+		position: relative; /* Remove absolute positioning */
+		top: -10px;
+		left: 0;
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		border: none;
+	}
+
+	.fuel p,
+.logistics p,
+.auto p {
+    text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    width: 90%;
+    font-size: 17px; /* Adjust font size for smaller screens */
+}
+	
+	
+	.read-more{
+		margin-top: 10px;
+	}
+	
+	
+	.service-description span{
+		color: black;
+	}
+	
+	.logistics a{
+		text-align: center;
+		width:90%;
+		font-size: 17px;
+		font-weight: bold;
+		margin-top:10px;
+	}
+	
+	
+	.fuel a,
+.logistics a,
+.auto a {
+    text-align: center;
+    width: 90%;
+    font-size: 13px; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    margin-top: 10px;
+}
+	
+.Details{
+	width: 50%;
+	height: 50vh;
+	margin: auto;
+	background-color: #f58634;
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.contentChange{
+	padding: 10px 50px;
+	background-color: aliceblue;
+	margin-top: 10px;
+	border: none;
+}
+
+.authSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.authLeft{
+    height: 100vh;
+    width: 50%;
+    background-color: red;
+}
+
+
+.authVideo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.authRight{
+    height: 100vh;
+    width: 50%;
+    padding: 50px;
+    justify-content: center;
+background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.authLink{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signingInBtn{
+    display: none;
+}
+
+
+/* Dahboard */
+
+.dashSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+.leftMenu{
+    height: 100vh;
+    width: 20%;
+    background-color: royalblue;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.dashContent{
+    width: 80%;
+    height: 100vh;
+
+}
+.navBar{
+    height: 10vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.profilePic{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.profileCont{
+    display: flex;
+    align-items: center;
+}
+
+.menuItems{
+    color: white;
+    list-style-type: none;
+    margin-bottom: 20px;
+   
+}
+
+
+.logo{
+    color: yellow;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.menuItems :hover{
+    background-color: white;
+    color: royalblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50%;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+
+
+.active{
+    background-color: white;
+    color: royalblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50%;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+
+hr{
+    border: white 1px solid;
+}
+.linkItem{
+    color: white;
+    text-decoration: none;
+}
+
+
+#logout{
+    cursor: pointer;
+}
+
+
+
+.analyticsCont{
+    width: 30%;
+    height: 20vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+
+.tableCont{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+
+.submitting{
+    display: none;
+}
+
+.user-logged-in{
+	background-color: #fff;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
